@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "strict": true,
+    "target": "es5",
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es5", "dom"],
+    "types": ["cypress","@testing-library/cypress","node"]
+  },
+  "include": ["**/*.ts"]
+}
