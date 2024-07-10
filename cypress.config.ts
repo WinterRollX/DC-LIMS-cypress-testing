@@ -18,6 +18,10 @@ module.exports = defineConfig({
     },
     baseUrl: "https://lims.dccouncil.gov",
   },
+  env: {
+    testBaseURL: "https://lims.dccouncil.gov",
+  },
+  experimentalMemoryManagement: true,
   viewportWidth: 1600,
   viewportHeight: 900,
 });
