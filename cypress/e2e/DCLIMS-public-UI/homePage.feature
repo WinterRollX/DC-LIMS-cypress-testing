@@ -4,7 +4,6 @@ Feature: Home page legislation category selection feature
 
         Background: Visit DC LIMS home page
             Given I am on DC LIMS home page
-            And I registered as a developer
 
         Scenario: Able to specify the legislation category for the search by using the dropdown
             When I click the legislation category dropdown
